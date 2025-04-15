@@ -51,7 +51,7 @@ const page = () => {
               {" "}
               Beyond coding, I thrive in collaborative environments and enjoy
               tackling challenging problems with creative solutions. I aim to
-              contribute to impactful projects that make a difference in users'
+              contribute to impactful projects that make a difference in users&apos;
               lives.
             </p>
           </div>
