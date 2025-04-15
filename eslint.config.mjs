@@ -18,12 +18,13 @@ const eslintConfig = [
   {
     rules: {
       "react/no-unescaped-entities": "off",
-      "react-hooks/rules-of-hooks": "error",
-      "@typescript-eslint/no-unused-vars": "warn",
-      "@next/next/no-img-element": "warn",
-      "@typescript-eslint/no-empty-interface": "off",
-      "@typescript-eslint/no-explicit-any": "warn",
-      "react-hooks/exhaustive-deps": "warn"
+      "react-hooks/rules-of-hooks": "error", 
+      "@typescript-eslint/no-unused-vars": "error", // Changed to error to catch unused variables
+      "@next/next/no-img-element": "error", // Changed to error to enforce next/image usage
+      "@typescript-eslint/no-empty-interface": "error", // Changed to error to prevent empty interfaces
+      "@typescript-eslint/no-explicit-any": "error", // Changed to error to prevent any type
+      "react-hooks/exhaustive-deps": "error", // Changed to error to catch missing dependencies
+      "@typescript-eslint/no-empty-object-type": "error" // Added to fix empty object type error
     }
   }
 ];
