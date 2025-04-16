@@ -171,11 +171,11 @@ export function MyTimeline() {
                 alt: "Redux",
               },
               {
-                src: "https://e7.pngegg.com/pngimages/10/113/png-clipart-django-web-development-web-framework-python-software-framework-django-text-trademark-thumbnail.png",
+                src: "https://img.icons8.com/?size=100&id=LPmcJ9e0FU7K&format=png&color=000000",
                 alt: "Django",
               },
               {
-                src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                src: "https://img.icons8.com/?size=100&id=bVGqATNwfhYq&format=png&color=000000",
                 alt: "GitHub",
               },
               {

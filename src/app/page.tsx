@@ -21,7 +21,6 @@ const Page = () => {
 
     window.addEventListener("mousemove", handleMouseMove);
 
-    // Simulate content loading
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 4000);
@@ -48,7 +47,7 @@ const Page = () => {
   return (
     <div className="bg-black text-white flex flex-col relative select-none">
       <div
-        className="circle h-3 w-3 fixed rounded-full bg-white z-[99] pointer-events-none transition-transform duration-150 ease-out"
+        className="circle h-3 w-3 hidden md:fixed rounded-full bg-white z-[99] pointer-events-none transition-transform duration-150 ease-out"
         style={circleStyle}
       />
 

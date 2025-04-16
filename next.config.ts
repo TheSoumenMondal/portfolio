@@ -41,9 +41,15 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname : "e7.pngegg.com",
-        port : "",
-        pathname : "/**",
+        hostname: "e7.pngegg.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: 'https',
+        hostname: "img.icons8.com",
+        port: "",
+        pathname: "/**",
       }
     ],
   },
