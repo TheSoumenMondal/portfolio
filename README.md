@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Soumen Mondal — Portfolio Website
 
-## Getting Started
+🚀 **Live Site**: [thesoumenmondal.vercel.app](https://thesoumenmondal.vercel.app/)  
+📦 **GitHub Repo**: [github.com/TheSoumenMondal/portfolio](https://github.com/TheSoumenMondal/portfolio)
 
-First, run the development server:
+Welcome to the source code of my personal portfolio website! This site showcases who I am, what I do, and what I’ve built. Built with modern technologies and a passion for clean, responsive UI/UX.
+
+---
+
+## ✨ Features
+
+- 💻 **Responsive Design** — Fully optimized for desktop, tablet, and mobile.
+- ⚡ **Performance-Oriented** — Loads fast with optimal SEO and accessibility.
+- 🌗 **Dark Mode** — Because aesthetic matters.
+- 🛠️ **Projects Showcase** — Highlighting personal and collaborative work.
+- 📄 **Resume** — Easily downloadable PDF.
+- 📬 **Contact Form** — Shoot me a message directly through the site.
+
+---
+
+## 🧰 Tech Stack
+
+- [Next.js](https://nextjs.org/) – Framework for React
+- [React](https://reactjs.org/) – Frontend Library
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) – Smooth animations
+- [EmailJS](https://www.emailjs.com/) – Contact form integration
+- [Vercel](https://vercel.com/) – Deployment & Hosting
+
+---
+
+## 🛠️ Local Setup
+
+Want to run this project locally?
 
 ```bash
+git clone https://github.com/TheSoumenMondal/portfolio.git
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
